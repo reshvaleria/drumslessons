@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
   <title></title>
@@ -16,21 +16,37 @@
   </header>
 
   <div class="primary-content t-border">
-    <h2>Преподаватель</h2>
-    <div class="group intro">
-      <div class="basic">
-        <p>Сергей Решетников. Тут должно быть написано какой он крутой. Oн играет в кораблях и научит вас ебашить как Колиас. Ну короче я в барабанах не шарю, он вам сам все расскажет. Тут просто должен быть параграф текста, который бы соответсвовал
-          картинке. Вот и все!</p>
+      <h2>Место проведения занятий</h2>
+      <div class="group intro">
+          <div class="basic">
+              <p>Занятия проводятся по адресу: м.Семёновская, ул. Вольная 25 на репетиционной базе Дисконт Studio.<br>
+                  К Вашим услугам всегда бесплатный Wi-Fi, горячий свежесваренный зерновой кофе.</p>
+          </div>
+          <div class="pro">
+              <img src="img/test.jpg" alt="Студия" class="profile-image">
+          </div>
       </div>
+      <h2>Преподаватель</h2>
+      <div class="group intro">
+          <div class="basic">
+              <p>Сергей Решетников. Тут должно быть написано какой он крутой. Oн играет в кораблях и научит вас ебашить как Колиас. Ну короче я в барабанах не шарю, он вам сам все расскажет. Тут просто должен быть параграф текста, который бы соответсвовал
+          картинке. Вот и все!</p>
+          </div>
       <div class="pro">
-        <img src="img/teacher.jpg" alt="Сергей Решетников"class="profile-image">
+        <img src="img/teacher.jpg" alt="Сергей Решетников" class="profile-image">
       </div>
       </div>
       <a class="callout" href="#programs">Перейти к программам обучения</a>
-      <div class="signin">
+      <div class="signin" id="signin">
         <h2>Запись on-line</h2>
-        <p>
-        </p>
+          <form action="send.php" method="post">
+              <input type="text" name="fio" placeholder="Укажите ФИО" required>
+              <input type="text" name="phone" placeholder="Номер телефона" required>
+              <input type="text" name="email" placeholder="Укажите e-mail" required>
+              <input type="submit" value="Отправить">
+          </form>
+<!--        <p>-->
+<!--        </p>-->
       </div>
     </div>
 
@@ -53,8 +69,9 @@
             <li> Blues</li>
             <li> Latino </li>
             <li> Jazz</li>
+          </ul>
+
         </ol>
-        </ul>
       </div>
 
       <div class="pro">
@@ -88,7 +105,8 @@
 
     <footer class="main-footer">
       <p>Мы <a href="https://vk.com/drumschool11" target="_blank">ВКонтакте</a>.</p>
-      <a href="#top">Вернуться к началу страницы &raquo;</a>
+        <a href="#signin">Перейти к заявке обратной связи &raquo;</br></a>
+        <a href="#top">Вернуться к началу страницы &raquo;</a>
     </footer>
 </body>
 
