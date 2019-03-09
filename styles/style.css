@@ -34,6 +34,7 @@ h3,
 .callout {
   font-family: 'Pacifico', cursive;
 }
+
 a:link {
   color: #228A8A;
   text-decoration: none;
@@ -68,7 +69,8 @@ a:active {
 }
 .primary-content,
 .main-header,
-.main-footer {
+.main-footer,
+.programs{
   text-align: center;
 }
 .profile-image {

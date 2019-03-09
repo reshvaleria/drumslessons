@@ -12,7 +12,7 @@
 <body>
   <header class="main-header" id="top">
     <span class="title">Хочешь стать барабанщиком?</span>
-    <h1>Уроки игры <br /> на барабанах</h1>
+    <h1>Уроки игры <br> на барабанах</h1>
   </header>
 
   <div class="primary-content t-border">
@@ -36,21 +36,32 @@
         <img src="img/teacher.jpg" alt="Сергей Решетников" class="profile-image">
       </div>
       </div>
-      <a class="callout" href="#programs">Перейти к программам обучения</a>
+      <h2>Стоимость занятий</h2>
+      <div class="group intro">
+          <div class="basic">
+              <p>Продолжительность занятия 60 мин. Занятия проводятся раз в неделю.</p>
+              <p>Стоимость первого пробного занятия: 700 руб.</p>
+              <p>Стоимость последующих занятий: 1200 руб.</p>
+          </div>
+          <div class="pro">
+              <img src="img/test.jpg" alt="Студия" class="profile-image">
+          </div>
+      </div>
       <div class="signin" id="signin">
         <h2>Запись on-line</h2>
+          <p>Для записи на первое пробное занятие заполните форму ниже и вам перезвонят.</p>
           <form action="send.php" method="post">
               <input type="text" name="fio" placeholder="Укажите ФИО" required>
               <input type="text" name="phone" placeholder="Номер телефона" required>
               <input type="text" name="email" placeholder="Укажите e-mail" required>
               <input type="submit" value="Отправить">
           </form>
-<!--        <p>-->
-<!--        </p>-->
       </div>
-    </div>
+      <a class="callout" href="#programs"><br>Перейти к программам обучения</a>
+  </div>
 
     <div class="secondary-content t-border group" id="programs">
+        <div class="programs"><h2>Программы обучения</h2></div>
       <div class="basic">
         <h3>Basic</h3>
         <p>Базовая программа обучения рассчитана на полное освоение (в рамках данной программы) Вами искусства игры на ударной установке, начиная от постановки рук и изучения нотной грамоты и заканчивая игрой в различных музыкальных направлениях.</p>
