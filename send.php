@@ -49,8 +49,8 @@ $phone = trim($phone);
 //    echo "Некорректный номер телефона\n";
 
 
-mail("lerakenny@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.". Номер телефона: ".$phone ,"From: drumslessons@000webhostapp.com \r\n");
-if (mail("lerakenny@mail.ru", "Заказ с сайта", "ФИО:".$fio.". E-mail: ".$email.". Номер телефона: ".$phone ,"From: drumslessons@000webhostapp.com \r\n"))
+mail("lerakenny@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.". Номер телефона: ".$phone ,"From: info@drumslessons.ru \r\n");
+if (mail("lerakenny@mail.ru", "Заказ с сайта", "ФИО:".$fio.". E-mail: ".$email.". Номер телефона: ".$phone ,"From: info@drumslessons.ru \r\n"))
 {
     echo "<div class=\"signin\" id=\"signin\">Сообщение успешно отправлено</div>";
 } else {
