@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-  <title></title>
+  <title>Уроки игры на барабанах</title>
   <link rel="stylesheet" href="styles/style.css">
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Pacifico" rel="stylesheet">
@@ -19,18 +19,21 @@
       <h2>Место проведения занятий</h2>
       <div class="group intro">
           <div class="basic">
-              <p>Занятия проводятся по адресу: м.Семёновская, ул. Вольная 25 на репетиционной базе Дисконт Studio.<br>
-                  К Вашим услугам всегда бесплатный Wi-Fi, горячий свежесваренный зерновой кофе.</p>
+              <h3>Репетиционная база <a href="http://www.lizard-rds.com/cgi-bin/lizard_rds/index.pl?text=page&i=4&index=index3" target="_blank">Дисконт Studio</a></h3>
+              <p>Занятия проводятся по адресу: м.Семёновская, ул. Вольная 25.</p>
+                  <p>К Вашим услугам всегда бесплатный Wi-Fi, горячий свежесваренный зерновой кофе.</p>
           </div>
           <div class="pro">
-              <img src="img/test.jpg" alt="Студия" class="profile-image">
+              <img src="img/discont.jpg" alt="Студия" class="profile-image">
           </div>
       </div>
       <h2>Преподаватель</h2>
       <div class="group intro">
           <div class="basic">
-              <p>Сергей Решетников. Тут должно быть написано какой он крутой. Oн играет в кораблях и научит вас ебашить как Колиас. Ну короче я в барабанах не шарю, он вам сам все расскажет. Тут просто должен быть параграф текста, который бы соответсвовал
-          картинке. Вот и все!</p>
+              <h3>Сергей Решетников.</h3> <p>Окончил ГКА им. Маймонида по специальности "Ударные инструменты".</p><p> Опыт игры на инструменте: 19 лет.
+                  Опыт преподавания: 14 лет.</p>
+                 <p> Разработал <a href="#programs"> образовательную программу</a>, благодаря которой можно добиться существенных результатов как с базового,
+                  так и с продвинутого уровня.</p>
           </div>
       <div class="pro">
         <img src="img/teacher.jpg" alt="Сергей Решетников" class="profile-image">
@@ -39,9 +42,9 @@
       <h2>Стоимость занятий</h2>
       <div class="group intro">
           <div class="basic">
-              <p>Продолжительность занятия 60 мин. Занятия проводятся раз в неделю.</p>
-              <p>Стоимость первого пробного занятия: 700 руб.</p>
-              <p>Стоимость последующих занятий: 1200 руб.</p>
+              <p><u>Продолжительность занятия</u>: 60 мин. Занятия проводятся раз в неделю.</p>
+              <p><u>Стоимость первого пробного занятия</u>: 700 руб.</p>
+              <p><u>Стоимость последующих занятий</u>: 1200 руб.</p>
           </div>
           <div class="pro">
               <img src="img/test.jpg" alt="Студия" class="profile-image">
@@ -54,10 +57,13 @@
               <input type="text" name="fio" placeholder="Укажите ФИО" required>
               <input type="text" name="phone" placeholder="Номер телефона" required>
               <input type="text" name="email" placeholder="Укажите e-mail" required>
+              <br>
               <input type="submit" value="Отправить">
           </form>
       </div>
-      <a class="callout" href="#programs"><br>Перейти к программам обучения</a>
+      <br>
+      <a class="callout" href="#programs">Перейти к программам обучения</a><br>
+      <a class="callout" href="#review">Перейти к отзывам</a>
   </div>
 
     <div class="secondary-content t-border group" id="programs">
@@ -114,8 +120,24 @@
       </div>
     </div><!-- End .secondary-content -->
 
-    <footer class="main-footer">
-      <p>Мы <a href="https://vk.com/drumschool11" target="_blank">ВКонтакте</a>.</p>
+<div class="primary-content" id="review">
+    <h2>Отзывы</h2>
+   <div align="center">
+       <div id="vk_post_-42386223_179"></div>
+       <div id="vk_post_-42386223_178"></div>
+       <div id="vk_post_-42386223_177"></div>
+       <div id="vk_post_-42386223_176"></div>
+       <div id="vk_post_-42386223_152"></div>
+   </div>
+</div>
+    <footer class="main-footer t-border">
+        <p>Мы <a href="https://vk.com/drumschool11" target="_blank">ВКонтакте</a>.</p>
+        <div align="center">
+            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+            <!-- VK Widget -->
+            <div id="vk_groups"></div>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
         <a href="#signin">Перейти к заявке обратной связи &raquo;</br></a>
         <a href="#top">Вернуться к началу страницы &raquo;</a>
     </footer>

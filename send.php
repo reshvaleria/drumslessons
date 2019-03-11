@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <title></title>
+    <title>Уроки игры на барабанах</title>
     <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class="small-header" id="top">
-    <h1>уроки игры на барабанах</h1>
+    <h2 align="center">Уроки игры на барабанах</h2>
 </header>
 <div class="primary-content t-border">
 <?php
