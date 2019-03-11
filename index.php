@@ -4,6 +4,8 @@
 <head>
   <title>Уроки игры на барабанах</title>
   <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+    <script type="text/javascript" src="script.js"></script>
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Pacifico" rel="stylesheet">
   <meta charset="utf-8">
@@ -133,10 +135,10 @@
     <footer class="main-footer t-border">
         <p>Мы <a href="https://vk.com/drumschool11" target="_blank">ВКонтакте</a>.</p>
         <div align="center">
-            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+<!--            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>-->
             <!-- VK Widget -->
             <div id="vk_groups"></div>
-            <script type="text/javascript" src="script.js"></script>
+<!--            <script type="text/javascript" src="script.js"></script>-->
         </div>
         <a href="#signin">Перейти к заявке обратной связи &raquo;</br></a>
         <a href="#top">Вернуться к началу страницы &raquo;</a>
