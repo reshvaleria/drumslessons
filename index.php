@@ -4,6 +4,8 @@
 <head>
   <title>Уроки игры на барабанах</title>
   <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="google.js"></script>
+    <script type="text/javascript" src="yandex.js"></script>
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
     <script type="text/javascript" src="script.js"></script>
   <meta name="viewport" content="width=device-width">
@@ -32,13 +34,13 @@
       <h2>Преподаватель</h2>
       <div class="group intro">
           <div class="basic">
-              <h3>Сергей Решетников.</h3> <p>Окончил ГКА им. Маймонида по специальности "Ударные инструменты".</p><p> Опыт игры на инструменте: 19 лет.
+              <h3>Сергей</h3> <p>Окончил ГКА им. Маймонида по специальности "Ударные инструменты".</p><p> Опыт игры на инструменте: 19 лет.
                   Опыт преподавания: 14 лет.</p>
                  <p> Разработал <a href="#programs"> образовательную программу</a>, благодаря которой можно добиться существенных результатов как с базового,
                   так и с продвинутого уровня.</p>
           </div>
       <div class="pro">
-        <img src="img/teacher.jpg" alt="Сергей Решетников" class="profile-image">
+        <img src="img/teacher.jpg" alt="Сергей" class="profile-image">
       </div>
       </div>
       <h2>Стоимость занятий</h2>

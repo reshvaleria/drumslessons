@@ -91,7 +91,8 @@ a:active {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 3px solid #93D6D6;
+  /*border: 3px solid #93D6D6;*/
+  border: 3px solid #846d91;
   transition: all .5s;
 }
 .profile-image:hover {
@@ -119,7 +120,8 @@ a:active {
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid #93D6D6;
+  /*border-bottom: 10px solid #93D6D6;*/
+  border-bottom: 10px solid #846d91;
   font-weight: lighter;
 }
 .t-border {
